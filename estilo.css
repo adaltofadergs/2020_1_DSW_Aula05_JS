@@ -1,0 +1,25 @@
+/* 
+    Created on : 16/03/2020, 10:57:59
+    Author     : adalto.selau
+*/
+
+.divCalculo{
+    width: 300px;
+    height: 150px;
+    background: #ddd;
+    border: solid 1px blue;
+    padding: 10px;
+}
+
+#botao{
+    border: solid 2px black;
+    border-radius: 0px 20px;
+}
+hr{
+    color: red;
+    background: green;
+    height: 10px;
+    border: blue 3px solid;
+}
+
+
