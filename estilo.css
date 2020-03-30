@@ -3,7 +3,7 @@
     Author     : adalto.selau
 */
 
-.divCalculo{
+.divCalculo , #minhaDiv{
     width: 300px;
     height: 150px;
     background: #ddd;

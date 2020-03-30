@@ -12,14 +12,13 @@
         
         
         <div class="divCalculo">
-            <input type="number" id="txtValor" />
+            <input type="number" id="txtValor" onkeyup="calcular()" />
             <button id="botao" onclick="calcular()">Dobrar</button>
             <label id="resultado"></label>
         </div>
         
         <script>
-            var labelResult = 
-                    document.getElementById("resultado");
+            var labelResult = document.getElementById("resultado");
             labelResult.innerHTML = "<b>Resultado: </b>";
             document.write("Fim da Div");
             document.write("<hr>");
@@ -37,6 +36,9 @@
             }
             
         </script>
+        
+        
+        <a href="aula_jquery.php">Aula jQuery</a>
         
     </body>
 </html>
